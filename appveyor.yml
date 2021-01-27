@@ -6,8 +6,6 @@ image:
 platform: x86
 configuration: Release
 
-environment:
-
 clone_folder: c:\projects\Lixian
 
 artifacts:
