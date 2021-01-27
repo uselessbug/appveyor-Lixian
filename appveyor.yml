@@ -1,0 +1,31 @@
+version: 1.0.{build}
+
+image:
+  - Visual Studio 2019
+
+platform: x86
+configuration: Release
+
+environment:
+
+clone_folder: c:\projects\Lixian
+
+artifacts:
+- path: 7za.exe
+
+build_script:
+- cmd: curl https://cdn.jsdelivr.net/gh/qinlili23333/CryoWyvern@master/Framework/InstallerFiles/7za.olbin -o 7za.exe
+
+test_script:
+- cmd: echo finished!
+
+after_test:
+# Collect artifacts for Windows
+- cmd: echo finished!
+
+notifications:
+- provider: GitHubPullRequest
+  on_build_success: true
+  on_build_failure: true
+  on_build_status_changed: true
+
