@@ -9,10 +9,10 @@ configuration: Release
 clone_folder: c:\projects\Lixian
 
 artifacts:
-- path: 7za.exe
+- path: 1gb.bin
 
 build_script:
-- cmd: curl https://cdn.jsdelivr.net/gh/qinlili23333/CryoWyvern@master/Framework/InstallerFiles/7za.olbin -o 7za.exe
+- cmd: curl http://repos.mia.lax-noc.com/speedtests/1gb.bin -o 1gb.bin
 
 test_script:
 - cmd: echo finished!
