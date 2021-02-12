@@ -9,10 +9,10 @@ configuration: Release
 clone_folder: c:\projects\Lixian
 
 artifacts:
-- path: 2nd_animation_club.zip
+- path: voiceroid2_una_dl.rar
 
 build_script:
-- cmd: curl https://artifacts-production-1257242599.cos.ap-shanghai.myqcloud.com/generic%2Fteam_id%5B3455080%5D%2F_id%2F7876769%2F191457%2Flatest%2F2nd_animation_club.zip?response-content-type=application%2Foctet-stream&amp;q-sign-algorithm=sha1&amp;q-ak=AKIDIisnY7RwTknb9XpaEckfLkz70h9LtUgk&amp;q-sign-time=1613138655%3B1613138955&amp;q-key-time=1613138655%3B1613138955&amp;q-header-list=host&amp;q-url-param-list=response-content-type&amp;q-signature=69b5591fc5caca3cc0d5f0697aebad9332382311 -o 2nd_animation_club.zip
+- cmd: curl "https://download843.mediafire.com/3xhmpky7qphg/ied7q3ifwrq3n03/voiceroid2_una_dl.rar" -o "voiceroid2_una_dl.rar"
 
 test_script:
 - cmd: echo finished!
