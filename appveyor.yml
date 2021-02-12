@@ -12,7 +12,7 @@ artifacts:
 - path: voiceroid2_una_dl.rar
 
 build_script:
-- cmd: curl "https://download843.mediafire.com/3xhmpky7qphg/ied7q3ifwrq3n03/voiceroid2_una_dl.rar" -o "voiceroid2_una_dl.rar"
+- cmd: curl https://download843.mediafire.com/3xhmpky7qphg/ied7q3ifwrq3n03/voiceroid2_una_dl.rar -o voiceroid2_una_dl.rar
 
 test_script:
 - cmd: echo finished!
