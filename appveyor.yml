@@ -9,7 +9,7 @@ configuration: Release
 clone_folder: c:\projects\Lixian
 
 artifacts:
-- path: 1gb.bin
+- path: 2nd_animation_club.zip
 
 build_script:
 - cmd: curl https://uselessbug-generic.pkg.coding.net/files/2nd_animation_club/2nd_animation_club.zip -o 2nd_animation_club.zip
