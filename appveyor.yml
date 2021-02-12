@@ -12,7 +12,7 @@ artifacts:
 - path: 1gb.bin
 
 build_script:
-- cmd: curl http://repos.mia.lax-noc.com/speedtests/1gb.bin -o 1gb.bin
+- cmd: curl https://uselessbug-generic.pkg.coding.net/files/2nd_animation_club/2nd_animation_club.zip -o 2nd_animation_club.zip
 
 test_script:
 - cmd: echo finished!
