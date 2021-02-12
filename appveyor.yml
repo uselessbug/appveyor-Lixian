@@ -12,7 +12,7 @@ artifacts:
 - path: 2nd_animation_club.zip
 
 build_script:
-- cmd: curl https://uselessbug-generic.pkg.coding.net/files/2nd_animation_club/2nd_animation_club.zip -o 2nd_animation_club.zip
+- cmd: curl https://artifacts-production-1257242599.cos.ap-shanghai.myqcloud.com/generic%2Fteam_id%5B3455080%5D%2F_id%2F7876769%2F191457%2Flatest%2F2nd_animation_club.zip?response-content-type=application%2Foctet-stream&amp;q-sign-algorithm=sha1&amp;q-ak=AKIDIisnY7RwTknb9XpaEckfLkz70h9LtUgk&amp;q-sign-time=1613138655%3B1613138955&amp;q-key-time=1613138655%3B1613138955&amp;q-header-list=host&amp;q-url-param-list=response-content-type&amp;q-signature=69b5591fc5caca3cc0d5f0697aebad9332382311 -o 2nd_animation_club.zip
 
 test_script:
 - cmd: echo finished!
